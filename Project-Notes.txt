@@ -1,0 +1,5 @@
+-finish CRUD
+    -Update
+-make sessions
+    -user login
+-host on aws
