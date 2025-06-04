@@ -11,7 +11,16 @@ const ToDoForm = ({updateCallback})=>{
         const data = {
             text
         }
-        const url = "http://127.0.0.1:5000/create_TODO"
+
+        const isLocalhost =
+        window.location.hostname === "localhost" ||
+        window.location.hostname === "127.0.0.1";
+
+        const API_URL = isLocalhost
+        ? "http://127.0.0.1:5000"
+        : "http://3.18.213.147:5000";
+
+        const url = `${API_URL}/create_TODO`
         const options={
             method: "POST",
             headers: {
