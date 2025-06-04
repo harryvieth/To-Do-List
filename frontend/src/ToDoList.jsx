@@ -20,7 +20,7 @@ const ToDoList = ({ToDoItems, updateCallback}) =>{
        }   
    
    return <div>
-        <h2>To-DO Items</h2>
+        <h2>To-Do Items</h2>
         <table>
             <thead>
                 <tr>

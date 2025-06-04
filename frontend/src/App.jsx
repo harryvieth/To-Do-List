@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import './App.css'
 import ToDoForm from './ToDoForm'
 import ToDoList from './ToDoList';
+
 function App() {
 
   const [items, setItems] = useState([]);
@@ -24,7 +25,7 @@ function App() {
   }
 
   return (
-    <>
+    <> 
       <ToDoList ToDoItems={items} updateCallback={onUpdate}/>
       <ToDoForm updateCallback = {onUpdate}/>
     </>
