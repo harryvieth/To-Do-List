@@ -1,6 +1,6 @@
 ***for now just deal with data sharing with cookies -- need to read more how to prevent this
         --just assume people will make just one account for now
-
+        -USE JWT
 
 *****SEND TO GITHUB WHEN WANT TO MAKE CHANGES****
 
